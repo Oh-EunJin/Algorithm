@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class 숫자의합구하기_2 {
+// 백준 11720번
+public class 숫자의합_2 {
 
     public static void main(String[] args) throws IOException {
         
@@ -19,6 +20,7 @@ public class 숫자의합구하기_2 {
             sum += cNum[i] - '0';
         }
         System.out.println(sum);
+        br.close();
     }
 
 }
