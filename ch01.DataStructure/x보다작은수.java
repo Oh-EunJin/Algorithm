@@ -21,7 +21,6 @@ public class x보다작은수 {
 
         System.out.println(sb.toString());
 
-
         if(br != null) br.close();
     }
 }
